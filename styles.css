@@ -1,0 +1,134 @@
+body {
+    background-color: #232438;
+}
+  @font-face {
+    font-family: 'product_sansregular';
+    src: url('font\\product_sans_regular-webfont.woff') format('woff2'),
+         url('font\\product_sans_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'product_sansregular', Arial, sans-serif;
+
+}
+.wip {
+  position: fixed;
+  z-index: 2000;
+  top: 43px;
+  left: 88%;
+  font-size: 1.5rem;
+  color: #ff0000ab;
+}
+.navbar {
+  display: flex;
+  position: fixed;
+  width: 97.6%;
+  z-index: 1000;
+  background-color: #8b95a9;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 1rem;
+  border-width: 2px;
+  border-color: #4e5db393;
+  gap: 2rem;
+}
+
+.navbar a {
+    padding: 10px;
+    font-size: 20px;
+    color: #232438;
+    text-decoration: none;
+}
+
+#title {
+  position: relative;
+  top: 30%;
+  left: 30%;
+  transform: translate(-50%,-50%);
+  max-width: 50%;
+}
+
+.home_content {
+  display: grid;
+  font-size: 2.3rem;
+  color: #ffffffd2;
+  gap: 1rem;
+}
+
+#undertitle {
+  position: relative;
+  top: 35%;
+  left: 30%;
+  transform: translate(-50%,-50%);
+  max-width: 50%;
+}
+
+.undertitle_paragraph {
+  display: grid;
+  margin-top: 10px;
+  font-size: 1.3rem;
+  color: #ffffffd2;
+  gap: 1rem;
+}
+
+#aboutme {
+  position: relative;
+  top: 56%;
+  left: 30%;
+  transform: translate(-50%,-50%);
+  max-width: 50%;
+}
+
+.aboutme_title {
+  display: grid;
+  gap: 1rem;
+  font-size: 2rem;
+  color: #ffffffd2;
+  margin-bottom: 1rem;
+}
+
+
+#social {
+  position: relative;
+  top: 75%;
+  left: 30%;
+  transform: translate(-50%,-50%);
+  max-width: 50%;
+}
+
+.socials_title {
+  display: grid;
+  gap: 0.5rem;
+  font-size: 2rem;
+  color: #ffffffd2;
+  margin-bottom: 1rem;
+}
+
+.social_button {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #1c64f2;
+  max-width: fit-content;
+  margin-bottom: 2%;
+  text-decoration: none;
+}
+
+.social_button:hover {
+  text-decoration: underline;
+}
+
+.social_img {
+  position: sticky;
+  display: flex;
+  width: 4rem;
+  height: 4rem;
+}
+
+
