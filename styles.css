@@ -16,14 +16,7 @@ body {
   font-family: 'product_sansregular', Arial, sans-serif;
 
 }
-.wip {
-  position: fixed;
-  z-index: 2000;
-  top: 43px;
-  left: 88%;
-  font-size: 1.5rem;
-  color: #ff0000ab;
-}
+
 .navbar {
   display: flex;
   position: fixed;
@@ -63,7 +56,7 @@ body {
 
 #undertitle {
   position: relative;
-  top: 35%;
+  top: 37%;
   left: 30%;
   transform: translate(-50%,-50%);
   max-width: 50%;
