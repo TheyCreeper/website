@@ -121,10 +121,8 @@ body {
 }
 
 .home_content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  color: white;  
-  font-size: 2rem;  
+  margin-left: 75px; 
+  margin-top: 50px;
+  color: white; 
+  font-size: 1.4rem;  
 }
