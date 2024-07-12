@@ -12,26 +12,26 @@ body {
 .navbar {
   display: flex;
   position: sticky;
-  top: 20;
+  top: 87%;
   width: 97.6%;
   z-index: 1000;
-  background-color: #8b95a9;
+  background-color: #212429;
   border: 2px solid black;
   margin: auto;
   padding: 10px;
   border-radius: 1rem;
   border-width: 2px;
-  border-color: #4e5db393;
+  border-color: #292d35;
   gap: 2rem;
-  /* justify-content: center;
+  justify-content: center;
   align-items: center;
-  max-width: fit-content; */
+  max-width: fit-content;
 }
 
 .navbar a {
     padding: 10px;
     font-size: 20px;
-    color: #232459;
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -42,7 +42,7 @@ body {
 .home_content {
   display: grid;
   margin-left: 75px;
-  margin-top: 120px;
+  margin-top: 10px;
   font-size: 1.4rem;
   color: #ffffffd2;
   gap: 1rem;
