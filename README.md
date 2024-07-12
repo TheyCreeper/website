@@ -9,4 +9,3 @@ An unfathomable amount of 0 JS !
 
 and... a bad website !
 
-it aint optimised for anything other than a maximised window on a 1920x1080 monitor
