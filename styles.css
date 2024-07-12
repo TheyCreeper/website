@@ -76,6 +76,7 @@ body {
   display: grid;
   margin-left: 75px;
   margin-top: 150px;
+  margin-right: 75px;
   margin-bottom: 50px;
   gap: 1rem;
   font-size: 1.4rem;
