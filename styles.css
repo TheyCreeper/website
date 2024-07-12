@@ -101,19 +101,30 @@ body {
 
 .project h2 {
   font-size: 2rem;
+  color: white;  
 }
 
 .project p {
   font-size: 1.4rem;
+  color: white;  
 }
 
 .project a {
   text-decoration: none;
-  color:#acacdd;
+  color: #acacdd;
   font-size: 1.3rem;
 }
 
 .project a:hover {
   text-decoration: underline;
   color: #7b7bce;
+}
+
+.home_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;  
+  font-size: 2rem;  
 }
