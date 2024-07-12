@@ -12,7 +12,7 @@ body {
 .navbar {
   display: flex;
   position: sticky;
-  top: 87%;
+  top: 3%;
   width: 97.6%;
   z-index: 1000;
   background-color: #212429;
@@ -31,8 +31,9 @@ body {
 .navbar a {
     padding: 10px;
     font-size: 20px;
-    color: #ffffff;
+    color: #d8d8dc;
     text-decoration: none;
+    font-weight: 600;
 }
 
 .navbar a:hover {
@@ -42,7 +43,7 @@ body {
 .home_content {
   display: grid;
   margin-left: 75px;
-  margin-top: 10px;
+  margin-top: 50px;
   font-size: 1.4rem;
   color: #ffffffd2;
   gap: 1rem;
@@ -74,7 +75,7 @@ body {
   display: grid;
   margin-left: 75px;
   margin-top: 150px;
-  margin-bottom: 10px;
+  margin-bottom: 50px;
   gap: 1rem;
   font-size: 1.4rem;
   color: #ffffffd2;
@@ -84,7 +85,7 @@ body {
   display: flex;
   align-items: center;
   gap: 1rem;
-  color: #1c64f2;
+  color: #d6e1fd;
   max-width: fit-content;
   text-decoration: none;
 }
