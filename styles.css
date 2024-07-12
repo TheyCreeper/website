@@ -38,6 +38,7 @@ body {
 
 .navbar a:hover {
   text-decoration: underline;
+  color: #acacdd;
 }
 
 .home_content {
@@ -85,13 +86,14 @@ body {
   display: flex;
   align-items: center;
   gap: 1rem;
-  color: #d6e1fd;
+  color: #acacdd;
   max-width: fit-content;
   text-decoration: none;
 }
 
 .social_button:hover {
   text-decoration: underline;
+  color: #7b7bce;
 }
 
 .social_img {
@@ -105,18 +107,22 @@ body {
   display: grid;
   margin-left: 75px;
   margin-top: 50px;
-  color: #ffffffd2;
+  color: #d8d8dc;
 }
 .project h2 {
   font-size: 2rem;
 }
 
+.project p {
+  font-size: 1.4rem
+}
 .project a {
   text-decoration: none;
-  color:#2fc7e2;
-  font-size: 1rem;
+  color:#acacdd;
+  font-size: 1.3rem;
 }
 
 .project a:hover {
   text-decoration: underline;
+  color: #7b7bce;
 }
