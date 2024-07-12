@@ -1,20 +1,12 @@
 body {
     background-color: #232438;
 }
-  @font-face {
-    font-family: 'product_sansregular';
-    src: url('font\\product_sans_regular-webfont.woff') format('woff2'),
-         url('font\\product_sans_regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
 
-}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'product_sansregular', Arial, sans-serif;
-
+  font-family: 'Manrope', sans-serif;
 }
 
 .navbar {
@@ -36,7 +28,7 @@ body {
 .navbar a {
     padding: 10px;
     font-size: 20px;
-    color: #232438;
+    color: #232459;
     text-decoration: none;
 }
 
