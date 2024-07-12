@@ -129,10 +129,9 @@ body {
 
 @media (max-width: 768px) {
   .navbar {
-    flex-direction: column;
-    align-items: flex-start;
     padding: 10px;
     width: 100%;
+    justify-content: space-around; 
   }
   
   .navbar a {
@@ -170,10 +169,9 @@ body {
 
 @media (max-width: 480px) {
   .navbar {
-    flex-direction: column;
-    align-items: flex-start;
     padding: 10px;
     width: 100%;
+    justify-content: space-around; 
   }
   
   .navbar a {
