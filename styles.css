@@ -107,6 +107,7 @@ body {
   display: grid;
   margin-left: 75px;
   margin-top: 50px;
+  margin-right: 75px;
   color: #d8d8dc;
 }
 .project h2 {
